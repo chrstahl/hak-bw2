@@ -1,0 +1,78 @@
+body { 
+	margin: 0; 
+	background-color: 252526;
+}
+
+#page1 {
+	display: block;
+	margin: 0 auto;
+	background-image: linear-gradient( rgba(64,8,152,.4), rgba(64,8,152,.4) ), url('../img/l1.jpg');
+	background-size: 100%;
+	width: auto;
+	height: auto;
+	cursor:  crosshair;
+	cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
+}
+
+#page2 {
+	display: block;
+	margin: 0 auto;
+	background-image: linear-gradient( rgba(64,8,152,.4), rgba(64,8,152,.4) ), url('../img/l2-h.jpg');
+	background-size: 100%;
+	width: auto;
+	height: auto;
+	cursor:  crosshair;
+	cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
+}
+
+#page3 {
+	display: block;
+	margin: 0 auto;
+	background-image: linear-gradient( rgba(64,8,152,.4), rgba(64,8,152,.4) ), url('../img/l3-h.jpg');
+	background-size: 100%;
+	width: auto;
+	height: auto;
+	cursor:  crosshair;
+	cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
+}
+
+#page4 {
+	display: block;
+	margin: 0 auto;
+	background-image: linear-gradient( rgba(64,8,152,.4), rgba(64,8,152,.4) ), url('../img/l4-h.jpg');
+	background-size: 100%;
+	width: auto;
+	height: auto;
+	cursor:  crosshair;
+	cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
+}
+
+#page5 {
+	display: block;
+	margin: 0 auto;
+	background-image: linear-gradient( rgba(64,8,152,.4), rgba(64,8,152,.4) ), url('../img/l5-h.jpg');
+	background-size: 100%;
+	width: auto;
+	height: auto;
+	cursor:  crosshair;
+	cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
+}
+
+#page6 {
+	display: block;
+	margin: 0 auto;
+	background-image: linear-gradient( rgba(64,8,152,.4), rgba(64,8,152,.4) ), url('../img/l6-h.jpg');
+	background-size: 100%;
+	width: auto;
+	height: auto;
+	cursor:  crosshair;
+	cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
+}
+
+#docContainer { 
+  text-align: center;
+  font-family: Avenir, sans-serif;
+}
+/* #bridgeContainer figcaption {   
+  margin-top: 2rem; 
+} */
