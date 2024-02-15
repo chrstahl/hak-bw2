@@ -1,34 +1,17 @@
 body { 
 	margin: 0; 
-	background-color: 252526;
+	background-color: #252526;
 }
 
 #page1 {
-	display: block;
-	margin: 0 auto;
-	background-image: linear-gradient( rgba(64,8,152,.4), rgba(64,8,152,.4) ), url('../img/h1-h.jpg');
-	background-size: 100%;
-	width: auto;
-	height: auto;
-	cursor:  crosshair;
-	cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
+	background-image: linear-gradient( rgba(64,8,152,.4), rgba(64,8,152,.4) ), url('../img/h1-h.jpg')!important;
 }
 
 #page2 {
-	display: block;
-	margin: 0 auto;
-	background-image: linear-gradient( rgba(64,8,152,.4), rgba(64,8,152,.4) ), url('../img/h2-h.jpg');
-	background-size: 100%;
-	width: auto;
-	height: auto;
-	cursor:  crosshair;
-	cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
+	background-image: linear-gradient( rgba(64,8,152,.4), rgba(64,8,152,.4) ), url('../img/h2-h.jpg')!important;
 }
 
 #docContainer { 
   text-align: center;
   font-family: Avenir, sans-serif;
 }
-/* #bridgeContainer figcaption {   
-  margin-top: 2rem; 
-} */
