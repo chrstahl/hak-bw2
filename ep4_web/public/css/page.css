@@ -1,0 +1,10 @@
+body {
+    height: 100%;
+    background-color: #252526;
+    overflow-y: hidden;
+}
+
+#docContainer { 
+    text-align: center;
+    font-family: Avenir, sans-serif;
+  }
