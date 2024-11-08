@@ -9,20 +9,20 @@ function nav_item(href, text) {
 
 document.body.innerHTML =
   "<nav class=\"navbar navbar-expand-md navbar-dark bg-dark\">"
-+ "<a class=\"navbar-brand\" href=\"index.html\"><img src=\"./public/img/logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> Blair Witch Season 2 - Episode 4</a>"
++ "<a class=\"navbar-brand\" href=\"index.html\"><img src=\"./public/img/logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> Blair Witch Season 2 - Episode 5</a>"
 + "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">"
 + "<span class=\"navbar-toggler-icon\"></span></button>"
 + "<div class=\"collapse navbar-collapse\" id=\"navbarNav\">"
 + "<ul class=\"navbar-nav\">"
 + nav_item("p1", "Letter from Ed")
-+ nav_item("p2","Wanted Poster")
-+ nav_item("p3","Witch Hunting Manuscript")
-+ nav_item("p4","Letter to Wife")
-+ nav_item("p5","Finger Bone")
-+ nav_item("p6","Casting Call Poster")
-+ nav_item("p7","James's Notebook")
-+ nav_item("p8","Flare Gun Package")
-// + nav_item("p9","Survival Guide")
++ nav_item("p2","Ticket")
++ nav_item("p3","Comic Book")
++ nav_item("p4","Drawing")
++ nav_item("p5","Trading Card")
++ nav_item("p6","Card")
++ nav_item("p7","Vet Form")
++ nav_item("p8","Letter")
++ nav_item("p9","Note")
 + "</ul></div></nav>"
 
 // Set current page as active
