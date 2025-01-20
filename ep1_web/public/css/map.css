@@ -1,0 +1,19 @@
+body {
+    height: 100%;
+    background-color: #252526;
+}
+
+#docContainer { 
+    text-align: center;
+    font-family: Avenir, sans-serif;
+  }
+
+div.scroll-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+  }
