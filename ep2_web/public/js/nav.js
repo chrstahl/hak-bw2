@@ -9,21 +9,21 @@ function nav_item(href, text) {
 
 document.body.innerHTML =
   "<nav class=\"navbar navbar-expand-md navbar-dark bg-dark\">"
-+ "<a class=\"navbar-brand\" href=\"index.html\"><img src=\"./public/img/logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> Murder On Ice - Episode 1</a>"
++ "<a class=\"navbar-brand\" href=\"index.html\"><img src=\"./public/img/logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> Murder On Ice - Episode 2</a>"
 + "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">"
 + "<span class=\"navbar-toggler-icon\"></span></button>"
 + "<div class=\"collapse navbar-collapse\" id=\"navbarNav\">"
 + "<ul class=\"navbar-nav\">"
-+ nav_item("p1", "Letter")
-+ nav_item("p2","Autopsy")
-+ nav_item("p3","Bag")
-+ nav_item("p4","Brochure")
-+ nav_item("p5","Interviews")
-+ nav_item("p6","Log")
-+ nav_item("p7","Magazine")
-+ nav_item("p8","Medal")
-+ nav_item("p9","Notebook")
-+ nav_item("p10","Report")
++ nav_item("p1", "Contact Letter")
++ nav_item("p2","Written Requests")
++ nav_item("p3","Article Draft")
++ nav_item("p4","Agenda Page")
++ nav_item("p5","Emails")
++ nav_item("p6","Routine Evaluations")
++ nav_item("p7","Business Card")
+// + nav_item("p8","Medal")
+// + nav_item("p9","Notebook")
+// + nav_item("p10","Report")
 + "</ul></div></nav>"
 
 // Set current page as active
