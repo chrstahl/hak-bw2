@@ -9,20 +9,20 @@ function nav_item(href, text) {
 
 document.body.innerHTML =
   "<nav class=\"navbar navbar-expand-md navbar-dark bg-dark\">"
-+ "<a class=\"navbar-brand\" href=\"index.html\"><img src=\"./public/img/logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> Murder On Ice - Episode 4</a>"
++ "<a class=\"navbar-brand\" href=\"index.html\"><img src=\"./public/img/logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> Murder On Ice - Episode 5</a>"
 + "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">"
 + "<span class=\"navbar-toggler-icon\"></span></button>"
 + "<div class=\"collapse navbar-collapse\" id=\"navbarNav\">"
 + "<ul class=\"navbar-nav\">"
 + nav_item("p1","Contact Letter")
-+ nav_item("p2","Newspaper Article")
-+ nav_item("p3","Text Messages")
-+ nav_item("p4","Dogsitter Instructions")
-+ nav_item("p5","Quick Start Guide")
-+ nav_item("p6","Sticky Note")
-+ nav_item("p7","Marcus's Inventation")
-+ nav_item("p8","Town Map")
-// + nav_item("p9","Notebook")
++ nav_item("p2","Journal Page")
++ nav_item("p3","Assessment")
++ nav_item("p4","Pitch Folder")
++ nav_item("p5","Contract")
++ nav_item("p6","Schedule")
++ nav_item("p7","Instruction Sheet")
++ nav_item("p8","Light Booth Presets")
++ nav_item("p9","Tins")
 // + nav_item("p10","Report")
 + "</ul></div></nav>"
 
