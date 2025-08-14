@@ -9,20 +9,20 @@ function nav_item(href, text) {
 
 document.body.innerHTML =
   "<nav class=\"navbar navbar-expand-md navbar-dark bg-dark\">"
-+ "<a class=\"navbar-brand\" href=\"index.html\"><img src=\"./public/img/logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> Royal Street - Episode 1</a>"
++ "<a class=\"navbar-brand\" href=\"index.html\"><img src=\"./public/img/logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> Royal Street - Episode 2</a>"
 + "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">"
 + "<span class=\"navbar-toggler-icon\"></span></button>"
 + "<div class=\"collapse navbar-collapse\" id=\"navbarNav\">"
 + "<ul class=\"navbar-nav\">"
 + nav_item("p1","Contact Letter")
-+ nav_item("p2","Cocktails")
-+ nav_item("p3","Local Lore")
-+ nav_item("p4","Map")
-+ nav_item("p5","Newsletter")
-+ nav_item("p6","Newspaper")
-+ nav_item("p7","Notebook")
-+ nav_item("p8","Phamplet")
-// + nav_item("p9","Tins")
++ nav_item("p2","Artwork")
++ nav_item("p3","Float Designs")
++ nav_item("p4","Grant Application")
++ nav_item("p5","Newspaper Clipping")
++ nav_item("p6","Police Report")
+// + nav_item("p7","Notebook")
+// + nav_item("p8","Phamplet")
+// // + nav_item("p9","Tins")
 // + nav_item("p10","Report")
 + "</ul></div></nav>"
 
