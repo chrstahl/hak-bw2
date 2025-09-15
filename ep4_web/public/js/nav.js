@@ -9,21 +9,22 @@ function nav_item(href, text) {
 
 document.body.innerHTML =
   "<nav class=\"navbar navbar-expand-md navbar-dark bg-dark\">"
-+ "<a class=\"navbar-brand\" href=\"index.html\"><img src=\"./public/img/logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> Royal Street - Episode 3</a>"
++ "<a class=\"navbar-brand\" href=\"index.html\"><img src=\"./public/img/logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> Royal Street - Episode 4</a>"
 + "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">"
 + "<span class=\"navbar-toggler-icon\"></span></button>"
 + "<div class=\"collapse navbar-collapse\" id=\"navbarNav\">"
 + "<ul class=\"navbar-nav\">"
 + nav_item("p1","Letter from Sylvia")
-+ nav_item("p2","Coroner Nptes")
-+ nav_item("p3","Chemical Analysis")
-+ nav_item("p4","Saint Expedite Card")
-+ nav_item("p5","Pharmacy Inventory")
-+ nav_item("p6","Cemetery Guide")
-+ nav_item("p7","Textbook Page")
-+ nav_item("p8","Parade Schedule")
-// // + nav_item("p9","Tins")
-// + nav_item("p10","Report")
++ nav_item("p2","Float Plans")
++ nav_item("p3","Dog Photos")
++ nav_item("p4","Dog Court Notes")
++ nav_item("p5","Resignation Letter")
++ nav_item("p6","Tarot Cards")
++ nav_item("p7","Charter")
++ nav_item("p8","Versailles Meeting Minutes")
++ nav_item("p9","Article")
++ nav_item("p10","Pirate Brothers Meeting Notes")
++ nav_item("p11","Sylvia's Notes")
 + "</ul></div></nav>"
 
 // Set current page as active
