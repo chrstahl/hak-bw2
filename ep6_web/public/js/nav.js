@@ -9,19 +9,19 @@ function nav_item(href, text) {
 
 document.body.innerHTML =
   "<nav class=\"navbar navbar-expand-md navbar-dark bg-dark\">"
-+ "<a class=\"navbar-brand\" href=\"index.html\"><img src=\"./public/img/logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> Royal Street - Episode 5</a>"
++ "<a class=\"navbar-brand\" href=\"index.html\"><img src=\"./public/img/logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\"> Royal Street - Episode 6</a>"
 + "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">"
 + "<span class=\"navbar-toggler-icon\"></span></button>"
 + "<div class=\"collapse navbar-collapse\" id=\"navbarNav\">"
 + "<ul class=\"navbar-nav\">"
 + nav_item("p1","Letter from Sylvia")
-+ nav_item("p2","Auction List")
-+ nav_item("p3","Cocktail Napkin")
-+ nav_item("p4","Photo Booth Photos")
-+ nav_item("p5","Flyer")
-+ nav_item("p6","Auction Catalog")
-+ nav_item("p7","Comic Book")
-+ nav_item("p8","Crown and Spoon")
++ nav_item("p2","Note from Ines")
++ nav_item("p3","Ball Invitation")
++ nav_item("p4","Costume Sketches")
++ nav_item("p5","Choreography Notes")
++ nav_item("p6","Envelope")
++ nav_item("p7","Photo of Dillon")
+// + nav_item("p8","Crown and Spoon")
 // + nav_item("p9","Article")
 // + nav_item("p10","Pirate Brothers Meeting Notes")
 // + nav_item("p11","Sylvia's Notes")
